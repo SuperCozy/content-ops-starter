@@ -20,7 +20,7 @@ seo:
   metaDescription: >-
     Creating a high-converting landing page is essential for turning visitors
     into customers.
-  socialImage: /images/abstract-feature2.svg
+  socialImage: /images/App Landing Page.png
   type: Seo
 colors: bg-light-fg-dark
 styles:
