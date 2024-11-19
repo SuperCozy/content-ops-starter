@@ -5,12 +5,13 @@ numOfPostsPerPage: 12
 enableSearch: true
 topSections:
   - title:
-      text: Featured Post
+      text: Featured WordPress Blogs
       color: text-dark
       type: TitleBlock
-    subtitle: This is the subtitle
+    subtitle: Explore Our WordPress Blogs
     posts:
-      - content/pages/blog/top-ten-lessons-we-learned.md
+      - content/pages/blog/wordpress-landing-pages.md
+      - content/pages/blog/mega-menu-widgets.md
     showThumbnail: true
     showExcerpt: true
     showDate: true
@@ -49,7 +50,7 @@ postFeed:
   showAuthor: true
   actions: []
   elementId: null
-  variant: three-col-grid
-  colors: bg-light-fg-dark
+  variant: big-list
+  colors: bg-neutral-fg-dark
   hoverEffect: move-up
 ---
