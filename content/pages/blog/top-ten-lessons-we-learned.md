@@ -22,8 +22,7 @@ seo:
     into customers.
   socialImage: /images/App Landing Page.png
   type: Seo
-  metaTags:
-    - type: MetaTag
+  metaTags: []
 colors: bg-light-fg-dark
 styles:
   self:
