@@ -6,10 +6,8 @@ title: >-
 date: '2024-11-12'
 author: content/data/person1.json
 excerpt: >-
-  Creating a high-converting landing page is essential for turning visitors into
-  customers. The key to success lies in focusing on clear objectives, compelling
-  calls-to-action (CTAs), and optimized designs. Here’s a concise guide on how
-  to achieve this effectively.
+  As web design trends continue to evolve, navigation remains a crucial element
+  in enhancing user experience and building effective websites. 
 featuredImage:
   type: ImageBlock
   url: /images/abstract-feature2.svg
