@@ -8,10 +8,13 @@ sections:
       color: text-dark
       type: TitleBlock
     subtitle: Subtitle goes here
-    text: >
-      A Netlify Create website is a git repo that you own. Every code commit is
-      instantly reflected in the visual editor and since every visual edit is a
-      git commit, git workflows and collaboration just work.
+    text: >+
+      At **CozyThemes**, we create modern, high-quality WordPress themes
+      designed for bloggers, businesses, and creatives. Our themes are fully
+      responsive, easy to customize, and optimized for SEO and performance,
+      helping you build a stunning website effortlessly. Explore our collection
+      and find the perfect theme to bring your vision to life!
+
     actions:
       - label: Get started
         altText: ''
