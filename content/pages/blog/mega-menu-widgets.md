@@ -1,7 +1,7 @@
 ---
 type: PostLayout
 title: >-
-  Top 8 WordPress Mega Menu Plugins for 2024: Enhance Your Website Navigation
+  Top 8 WordPress Mega Menu Plugins for 2024: Improve Your Website Navigation
   and User Experience
 date: '2024-11-12'
 author: content/data/person1.json
