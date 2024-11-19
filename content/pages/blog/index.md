@@ -8,7 +8,7 @@ topSections:
       text: Featured WordPress Blogs
       color: text-dark
       type: TitleBlock
-    subtitle: This is the subtitle
+    subtitle: Explore Our WordPress Blogs
     posts:
       - content/pages/blog/top-ten-lessons-we-learned.md
     showThumbnail: true
