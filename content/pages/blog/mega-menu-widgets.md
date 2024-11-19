@@ -10,7 +10,7 @@ excerpt: >-
   in enhancing user experience and building effective websites. 
 featuredImage:
   type: ImageBlock
-  url: /images/abstract-feature2.svg
+  url: /images/advanced_mega_menu.png
   altText: Thumbnail
   styles:
     self:
