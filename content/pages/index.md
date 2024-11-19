@@ -4,7 +4,7 @@ slug: /
 sections:
   - type: GenericSection
     title:
-      text: Welcome To CozyThemes
+      text: Welcome To CozyThemes Netlify
       color: text-dark
       type: TitleBlock
     subtitle: Subtitle goes here
