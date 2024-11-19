@@ -1,5 +1,5 @@
 ---
-title: 'Unlocking Conversion: How to Create a High-Impact Landing Page with WordPress'
+title: 'Unlocking Conversion: How to Create a High Impact Landing Page with WordPress'
 slug: wordpress-landing-pages
 date: '2024-11-25'
 excerpt: >-
