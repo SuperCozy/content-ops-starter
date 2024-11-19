@@ -7,7 +7,7 @@ sections:
       text: Welcome To CozyThemes Netlify
       color: text-dark
       type: TitleBlock
-    subtitle: Subtitle goes here
+    subtitle: Premium WordPress Themes
     text: >
       At [**CozyThemes**](https://cozythemes.com), we create modern,
       high-quality WordPress themes designed for bloggers, businesses, and
