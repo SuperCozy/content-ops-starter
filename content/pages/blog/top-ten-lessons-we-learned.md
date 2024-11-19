@@ -17,7 +17,9 @@ featuredImage:
 isFeatured: true
 seo:
   metaTitle: 'Unlocking Conversions: Create Landing Pages'
-  metaDescription: You can add the excerpt and main keywords of your blog post here.
+  metaDescription: >-
+    Creating a high-converting landing page is essential for turning visitors
+    into customers.
   socialImage: /images/abstract-feature2.svg
   type: Seo
 colors: bg-light-fg-dark
