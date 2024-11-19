@@ -1,6 +1,6 @@
 ---
 title: 'Unlocking Conversion: How to Create a High-Impact Landing Page with WordPress'
-slug: top-ten-lessons-we-learned
+slug: wordpress-landing-pages
 date: '2024-11-25'
 excerpt: >-
   Creating a high-converting landing page is essential for turning visitors into
