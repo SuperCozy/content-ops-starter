@@ -1,6 +1,8 @@
 ---
 type: PostLayout
-title: 'Unlocking Conversion: How to Create a High-Impact Landing Page with WordPress'
+title: >-
+  Top 8 WordPress Mega Menu Plugins for 2024: Enhance Your Website Navigation
+  and User Experience
 date: '2024-11-25'
 author: content/data/person1.json
 excerpt: >-
