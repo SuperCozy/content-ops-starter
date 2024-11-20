@@ -1,7 +1,7 @@
 ---
 type: PostLayout
 title: 'Modestra: The Perfect WordPress Theme for Your Business Success'
-date: '2024-11-26'
+date: '2024-11-22'
 author: content/data/person1.json
 excerpt: >-
   Creating a high-converting landing page is essential for turning visitors into
