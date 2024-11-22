@@ -31,8 +31,6 @@ styles:
   self:
     flexDirection: row
 ---
-
-
 In today's digital-first world, having a professional, functional, and visually appealing website is a necessity for educational institutions. Whether you represent a school, college, or university, a well-designed website serves as a vital platform for communication, engagement, and showcasing your institution’s values. Enter **Smartversity**, a cutting-edge **WordPress theme** tailored specifically for educational institutions.
 
 ### **What is Smartversity?**
@@ -100,6 +98,3 @@ With its block-based structure and adherence to the latest WordPress standards, 
 Smartversity is more than just a WordPress theme; it’s a gateway to creating impactful educational websites that inspire trust, engagement, and connection. With its robust features, flexibility, and commitment to user experience, Smartversity is the perfect choice for educational institutions looking to enhance their online presence.
 
 Embrace the future of website design with Smartversity. Start building your educational website today!
-
-
-
