@@ -11,6 +11,7 @@ topSections:
     subtitle: Explore Our WordPress Blogs
     posts:
       - content/pages/blog/modestra-theme-wordpress.md
+      - content/pages/blog/wordpress-review.md
       - content/pages/blog/wordpress-landing-pages.md
       - content/pages/blog/mega-menu-widgets.md
     showThumbnail: true
