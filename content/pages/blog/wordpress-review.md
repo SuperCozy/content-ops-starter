@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: 'Unlocking Conversion: How to Create a High Impact Landing Page with WordPress'
+title: 'Smartversity: The Ultimate Free WordPress Theme for Educational Websites'
 date: '2024-11-25'
 author: content/data/person1.json
 excerpt: >-
