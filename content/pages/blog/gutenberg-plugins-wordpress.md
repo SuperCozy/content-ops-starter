@@ -1,6 +1,8 @@
 ---
 type: PostLayout
-title: 'Smartversity: The Ultimate Free WordPress Theme for Educational Websites'
+title: >-
+  WordPress Gutenberg Blocks Plugins: Revolutionizing Content Creation and
+  Website Design
 date: '2024-11-25'
 author: content/data/person1.json
 excerpt: >-
