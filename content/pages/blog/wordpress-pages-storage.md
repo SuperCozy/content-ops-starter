@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: 'Smartversity: The Ultimate Free WordPress Theme for Educational Websites'
+title: 'Where WordPress Pages are Stored: A Complete Guide'
 date: '2024-11-25'
 author: content/data/person1.json
 excerpt: >-
