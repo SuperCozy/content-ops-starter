@@ -1,7 +1,7 @@
 ---
 type: PostLayout
 title: 'Where WordPress Pages are Stored: A Complete Guide'
-date: '2024-11-25'
+date: '2024-11-26'
 author: content/data/person1.json
 excerpt: >-
   Creating a high-converting landing page is essential for turning visitors into
