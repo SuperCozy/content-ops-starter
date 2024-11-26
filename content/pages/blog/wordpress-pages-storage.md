@@ -31,70 +31,55 @@ styles:
   self:
     flexDirection: row
 ---
-In today's digital-first world, having a professional, functional, and visually appealing website is a necessity for educational institutions. Whether you represent a school, college, or university, a well-designed website serves as a vital platform for communication, engagement, and showcasing your institution’s values. Enter **Smartversity**, a cutting-edge **WordPress theme** tailored specifically for educational institutions.
+With WordPress, you have more than likely used the functionality to create pages to display your content, be it an About Us section, Contact page, or even a full portfolio. But where are these pages actually stored? In this section, we take a look at how WordPress does some of its magic with pages behind the scenes.
 
-### **What is Smartversity?**
+## How WordPress Stores Pages
 
-Smartversity is a **free WordPress theme** designed to cater to the unique needs of schools, colleges, universities, and other educational organizations. Built with modern web design practices and the power of [**Full Site Editing**](cozythemes.com/fotawp) **(FSE)**, this theme empowers users to create stunning and highly customizable websites without requiring technical expertise.
+Unlike static HTML sites, WordPress is a database-driven application. Instead of writing and saving pages directly to files on your server, WordPress stores all of your page data within its MySQL database.
 
-### **Key Features of Smartversity**
+**Database Table for Pages**
+WordPress stores your page content in the wp\_posts table of its database. Despite the confusing name, this table handles both posts and pages. Here's how this works:
 
-#### 1. **Full Site Editing (FSE)**
+**Post Type Identifier:**
+Pages are designated as page in the post\_type column of the wp\_posts table. This differentiates them from posts - designated as post - or other custom content types.
 
-Smartversity takes full advantage of WordPress's block-based **Full Site Editing (FSE)** capability. With FSE, users can design and customize every aspect of their website, from headers and footers to individual page layouts, using an intuitive block editor. This eliminates the need for complex coding or third-party page builders.
+**Page Metadata:**
+If you have additional data about your pages - custom fields or page templates, for example - it is stored in the wp\_postmeta table.
 
-#### 2. **5 Global Style Variations**
+**Revisions:**
+Every time you save a page, WordPress creates a revision. These are stored in the wp\_posts table, too. The post\_type is set to revision.
 
-Smartversity offers **five pre-designed global styles**, allowing users to effortlessly switch between unique color schemes that align with their institution’s branding. Whether your school’s brand is vibrant or subtle, Smartversity has a style to suit your needs.
+**Where does the Page Content Go?**
+While content is held in the database, it is served dynamically by PHP and theme template. For instance:
 
-#### 3. **Tailored for Educational Websites**
+The page.php file in your active theme is what controls how the pages are rendered. If no such specific template exists, WordPress uses its default template hierarchy to display the page. Does your page display require a professional WordPress theme? Try CozyThemes for free and [premium WordPress themes](https://cozythemes.com/) crafted for customization and performance.
 
-From course listings to event updates and contact forms, Smartversity provides a solid foundation to feature essential information in a clean and organized manner. The theme’s design prioritizes readability and accessibility, ensuring that prospective students, parents, and stakeholders can easily navigate your site.
+**Other Page Components**
+**Media Files:**
+If your pages have images or videos, the media files themselves are housed in the /wp-content/uploads/ folder, but that information is not stored in the database. Instead the URLs for those files are added to the wp\_posts table with post\_type of attachment.
 
-#### 4. **Responsive and SEO-Friendly**
+**Menus and Navigation:**
+If your pages are part of a menu, the menu structure is stored in the wp\_terms and related tables.
 
-Smartversity is designed to look great on all devices, from desktops to smartphones. Its responsive design ensures that your site remains user-friendly, no matter how visitors access it. Moreover, the theme is built with SEO best practices in mind, helping your institution rank higher in search engine results.
+## Why Does WordPress Use This Structure?
 
-#### 5. **Customizable Blocks for Every Need**
+Store pages in a database offers several advantages in that:
 
-Leverage the power of WordPress blocks to add dynamic content like image galleries, testimonials, call-to-action buttons, and more. Smartversity’s block-based approach makes it easy to build an engaging and interactive website.
+**Dynamic Updates**: This allows each and every change made to a page to be updated instantly without having to change any static files.
+**Scalability**: WordPress supports literally thousands of pages without burdening the server.
+**Flexibility**: All custom post types, taxonomies, and plugins can have nice integration into the database-driven architecture.
 
-### **Who Should Use Smartversity?**
+## How to View WordPress Pages in the Database
 
-Smartversity is ideal for:
+If you want to see or manage your WordPress pages directly in the database, then follow these steps:
 
-*   **Schools**: Showcase your curriculum, faculty, and facilities.
+1.  Open your hosting provider's cPanel and open the database management tool-like phpMyAdmin.
 
-*   **Colleges**: Highlight academic programs, events, and admissions processes.
+2.  Click wp\_posts table.
 
-*   **Universities**: Promote research, publications, and student achievements.
+3.  Filter the results by setting the post\_type to page.
 
-*   **Training Centers**: Advertise courses, workshops, and certifications.
+*Pro Tip: Always back up your database before making any changes.*
 
-### **Why Choose Smartversity?**
-
-#### **1. Ease of Use**
-
-Whether you’re a WordPress novice or a seasoned web designer, Smartversity’s user-friendly interface ensures a smooth experience.
-
-#### **2. Cost-Effective**
-
-As a free theme, Smartversity offers premium-like features without any financial commitment, making it an excellent choice for budget-conscious institutions.
-
-#### **3. Future-Ready Design**
-
-With its block-based structure and adherence to the latest WordPress standards, Smartversity ensures that your website remains modern and up-to-date for years to come.
-
-### **How to Get Started with Smartversity**
-
-1.  **Download and Install**: Visit the [CozyThemes website](https://cozythemes.com/smartversity-free-wordpress-theme-for-school-college/) to download the theme.
-
-2.  **Customize Your Site**: Use the block editor to personalize your website’s layout, colors, and content.
-
-3.  **Launch Your Website**: Publish your website and share your institution’s story with the world.
-
-### **Conclusion**
-
-Smartversity is more than just a WordPress theme; it’s a gateway to creating impactful educational websites that inspire trust, engagement, and connection. With its robust features, flexibility, and commitment to user experience, Smartversity is the perfect choice for educational institutions looking to enhance their online presence.
-
-Embrace the future of website design with Smartversity. Start building your educational website today!
+**Conclusion**
+Knowing where WordPress pages are stored will help you troubleshoot a problem, [customize your site](https://cozythemes.com/blog/customizable-wordpress-theme/), or simply appreciate how WordPress works. And the database-driven approach does mean flexibility, scalability, and ease of management, which makes WordPress a leader among websites of all genres.
