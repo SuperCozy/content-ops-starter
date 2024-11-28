@@ -43,7 +43,7 @@ sections:
           - pr-16
 seo:
   metaTitle: Cozify - NetlifyBlogs
-  metaDescription: This demo site is built with Netlify Create.
+  metaDescription: Welcome to WordPress Blogs of CozyThemes.
   socialImage: /images/main-hero.jpg
   type: Seo
 type: PageLayout
