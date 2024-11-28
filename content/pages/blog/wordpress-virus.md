@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: 'Smartversity: The Ultimate Free WordPress Theme for Educational Websites'
+title: Do WordPress Plugins Contain Viruses?
 date: '2024-11-25'
 author: content/data/person1.json
 excerpt: >-
