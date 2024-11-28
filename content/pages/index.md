@@ -44,7 +44,7 @@ sections:
 seo:
   metaTitle: Cozify - NetlifyBlogs
   metaDescription: Welcome to WordPress Blogs of CozyThemes.
-  socialImage: /images/main-hero.jpg
+  socialImage: /images/Fota.png
   type: Seo
 type: PageLayout
 ---
