@@ -10,6 +10,7 @@ topSections:
       type: TitleBlock
     subtitle: Explore Our WordPress Blogs
     posts:
+      - content/pages/blog/nulled-theme.md
       - content/pages/blog/wordpress-pages-storage.md
       - content/pages/blog/wordpress-virus.md
       - content/pages/blog/gutenberg-plugins-wordpress.md
