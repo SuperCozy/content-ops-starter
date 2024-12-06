@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: What is Nulled WordPress Themes? Why You Should Avoid Them
+title: Check Responsiveness of Your WordPress Website
 date: '2024-12-04'
 author: content/data/person1.json
 excerpt: >-
